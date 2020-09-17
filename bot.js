@@ -61,7 +61,7 @@ const shareCat = async () => {
     twitterClient.post(
       'statuses/update',
       {
-        status: `I'm looking for a home! 🐶 ${newCats[0].url}`,
+        status: `I'm looking for a home! 😺 ${newCats[0].url}`,
       },
       function (error, tweet, response) {
         if (!error) {
